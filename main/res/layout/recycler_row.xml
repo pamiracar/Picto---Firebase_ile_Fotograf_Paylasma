@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/border_recycler_row">
+
+    <ImageView
+        android:id="@+id/PostGorsel"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/picto_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Postmail"
+        android:text="test"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="30sp"
+        android:fontFamily="@font/type_machine"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postAciklama"
+        android:text="test"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/type_machine"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
